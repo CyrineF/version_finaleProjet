@@ -62,7 +62,7 @@ export default function Dashboard() {
             console.log(err)
         })
 
-        fetch("http://localhost:4000/salles/count").then(response =>
+        fetch("http://localhost:4000/enseignants/count").then(response =>
             response.json()
         ).then(data => {
             setNbEnseignants(data)
